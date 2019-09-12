@@ -7,26 +7,17 @@ connection.connect()
 
 // these are the congfigs that contain the login active directory
 var redoeConfig = { 
-    url: 'ldap://207.236.89.184',
-    baseDN: 'dc=redoemold,dc=com',
-    username: 'ldap',
-    password: 'P@ssW0rd'
+
 }
 var redoe = new activeDirectory(redoeConfig)
 
 var pangeoConfig = {
-  url: 'ldap://10.50.0.234',
-  baseDN: 'dc=pangeocorp,dc=local',
-  username: 'ldap',
-  password: 'P@ssW0rd'
+
 }
 var pangeo = new activeDirectory(pangeoConfig)
 
 var porterConfig = {
-  url: 'ldap://10.4.1.51',
-  baseDN: 'dc=pgroup,dc=com',
-  username: 'ldap',
-  password: 'P@ssW0rd'
+
 }
 var porter = new activeDirectory(porterConfig)
 
